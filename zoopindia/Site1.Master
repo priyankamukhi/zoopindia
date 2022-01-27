@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="zoopindia.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>zoopindia.com</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class ="row" style="background:white;height:auto">;
+            <div id="" class="progress-bar-striped" style=" color:orange;height:auto">;
+              <img src="https://www.zoopindia.com/assets/images/logo.png" class="img-responsive" alt="Cinque Terre" width="114" height="50"> 
+            </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        <div class ="row" style="background:black;height:auto">;
+            <center><span><b>Mohan Cooperative Industrial Estate, New Delhi-110044</b></span></center>
+            <center><span><b>&copy .All rights reserved. Zoop Web Services Pvt. Ltd.</b></span></center>
+
+ </div>
+    </form>
+</body>
+</html>
