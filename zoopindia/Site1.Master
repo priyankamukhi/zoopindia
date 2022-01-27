@@ -5,6 +5,7 @@
 <html>
 <head runat="server">
     <title>zoopindia.com</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 <!-- jQuery library -->
@@ -18,17 +19,52 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class ="row" style="background:white;height:auto">;
-            <div id="" class="bar" style=" color:orange;height:50px">;</div>
-              <img src="https://www.zoopindia.com/assets/images/logo.png" class="img-responsive" alt="Cinque Terre" width="114" height="50"> 
+    <div class="wrapper" style="height:100%">
+        <div id="__next">
+            <header class="container-fluid headerBg" id="navbar_top" style="background:#ffffff;width:100%;margin-left:auto;margin-right:auto;padding-right:var(--bs-gutter-x,0.75rem);padding-left:var(--bs-gutter-x,0.75rem)">
+                <div class="container-md">
+                <div class="navbar navbar-expand p-0">
+                    
+                    <span class="btn collapseBtn" style="height:2px;top:15px;display:block;background:#ff6a00;position:absolute;opacity:1;left:0">
+                    <span class="btn collapse::before"></span>
+                        <span></span>
+                    <span class="btn collapse::after"></span>
+                    </span>
+                    <a class="navbar-brand websitelogo" href="https://www.zoopindia.com/assets/images/logo.png">
+            <img src="https://www.zoopindia.com/assets/images/logo.png" alt="ZOOPINDIA"class="img-fluid"/>
+                    </a>
+                    <div class="navbar-collapse mobilemenu justify-content-end">
+                        <a class="maincolor android-link" href="https://play.google.com/store/apps/details?id=com.zoop.zoopindiaservice&hl=en" target="_blank">
+<i class="fab fa_android"></i>
+                        </a>
+                        <ul class="navbar-nav navRight">
+                            <li class="nav-item dropdown">
+                                <button type="button" class="nav-item dropdown-toggle" id="dropdownmenubutton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                 <button id="" class="nav-link dropdown-toggle::before" ></button>
+                                </button>
+
+                            </li>
+                        </ul>
+                      </div>
+                       
+                    </div>
+                </div>
+                    
+            </header>
             </div>
+
             
+  </div>
+             
+           
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-        <div class ="row" style="background:black;height:auto">;
-            <center><span><b>Mohan Cooperative Industrial Estate, New Delhi-110044</b></span></center>
-            <center><span><b>&copy .All rights reserved. Zoop Web Services Pvt. Ltd.</b></span></center>
+        <div class ="row" style="background:#282323;height:auto">
 
+            <center><span><b>Mohan Cooperative Industrial Estate, New Delhi-110044</b></span></center>
+            <center><span><b>&copy
+             <a class="nav-link active" href="#" >zoop</a>.All rights reserved. Zoop Web Services Pvt. Ltd.</b></span></center>
+          </div>           
  </div>
     </form>
 </body>
