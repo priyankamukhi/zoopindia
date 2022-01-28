@@ -19,22 +19,22 @@
 </head>
 <body>
     <form id="form1" runat="server">
-  <div class="wrapper"style="height:100px">
+  <div class="wrapper">
       <header class="container-fluid headerBg" id="navbar_top">
           <div class="container-md">
-              <div class="navbar-header">
-              <nav class="navbar navbar-expand">
+              <nav class="navbar navbar-expand-lg p-0">
                   <span class="btn btn-collapseBtn" style="background: #ff6a00;height:30px;display:block;position:relative;box-sizing:border-box;cursor:pointer;width:26px">
                      
                      
                   <span class="btn-collapseBtn::after" style="top:21px;height:2px;display:block;background:#ff6a00;position:absolute;box-sizing:border-box"></span>
                       </span>
-                  <a class="navbar-brand websiteLogo" href=" https://www.zoopindia.com/assets/images/logo.png">
-                      <img src=" https://www.zoopindia.com/">
-                      </a>
+                  <a class="navbar-brand websiteLogo" href="https://www.zoopindia.com/assets/images/logo.png">
+                      <img src="https://www.zoopindia.com/assets/images/logo.png" alt="ZOOPINDIA" class="img-fluid" style="height:30px;cursor:pointer;width:26px;vertical-align:middle">
+                     
+                    </a>
                   <div class="navbar-collapse mobileMenu justify-content-end" style="color:#ff6a00">
-                      <a class="mainColour android-link" href="https://play.google.com/store/apps/details?id=com.zoop.zoopindiaservice&amp;hl=en" target="">
-                          <i class="fab fa-android"></i>
+                      <a class="mainColour android-link" href="https://play.google.com/store/apps/details?id=com.zoop.zoopindiaservice&amp;hl=en" style="height:20px;width:26px;background:#ff6a00;color:#ff6a00;padding:5px;font-size:1.5rem">
+                          <i class=" fas fa-android"></i>
 
                       </a>
                       <ul class="navbar-nav navRight">
@@ -75,7 +75,6 @@
                       </div> 
                        </nav>
                     </div> 
-              </div>
   </header>
            
         
