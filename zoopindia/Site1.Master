@@ -19,44 +19,66 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div class="wrapper" style="height:100%">
-        <div id="__next">
-            <header class="container-fluid headerBg" id="navbar_top" style="background:#ffffff;width:100%;margin-left:auto;margin-right:auto;padding-right:var(--bs-gutter-x,0.75rem);padding-left:var(--bs-gutter-x,0.75rem)">
-                <div class="container-md">
-                <div class="navbar navbar-expand p-0">
-                    
-                    <span class="btn collapseBtn" style="height:2px;top:15px;display:block;background:#ff6a00;position:absolute;opacity:1;left:0">
-                    <span class="btn collapse::before"></span>
-                        <span></span>
-                    <span class="btn collapse::after"></span>
-                    </span>
-                    <a class="navbar-brand websitelogo" href="https://www.zoopindia.com/assets/images/logo.png">
-            <img src="https://www.zoopindia.com/assets/images/logo.png" alt="ZOOPINDIA"class="img-fluid"/>
-                    </a>
-                    <div class="navbar-collapse mobilemenu justify-content-end">
-                        <a class="maincolor android-link" href="https://play.google.com/store/apps/details?id=com.zoop.zoopindiaservice&hl=en" target="_blank">
-<i class="fab fa_android"></i>
-                        </a>
-                        <ul class="navbar-nav navRight">
-                            <li class="nav-item dropdown">
-                                <button type="button" class="nav-item dropdown-toggle" id="dropdownmenubutton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                 <button id="" class="nav-link dropdown-toggle::before" ></button>
-                                </button>
+  <div class="wrapper"style="height:100px">
+      <header class="container-fluid headerBg" id="navbar_top">
+          <div class="container-md">
+              <div class="navbar-header">
+              <nav class="navbar navbar-expand">
+                  <span class="btn btn-collapseBtn" style="background: #ff6a00;height:30px;display:block;position:relative;box-sizing:border-box;cursor:pointer;width:26px">
+                     
+                     
+                  <span class="btn-collapseBtn::after" style="top:21px;height:2px;display:block;background:#ff6a00;position:absolute;box-sizing:border-box"></span>
+                      </span>
+                  <a class="navbar-brand websiteLogo" href=" https://www.zoopindia.com/assets/images/logo.png">
+                      <img src=" https://www.zoopindia.com/">
+                      </a>
+                  <div class="navbar-collapse mobileMenu justify-content-end" style="color:#ff6a00">
+                      <a class="mainColour android-link" href="https://play.google.com/store/apps/details?id=com.zoop.zoopindiaservice&amp;hl=en" target="">
+                          <i class="fab fa-android"></i>
 
-                            </li>
-                        </ul>
-                      </div>
-                       
-                    </div>
-                </div>
-                    
-            </header>
-            </div>
-
-            
-  </div>
-             
+                      </a>
+                      <ul class="navbar-nav navRight">
+                          <li class="nav-item dropdown">
+                          <button type="button" class="nav-link dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa fa-user"></i>
+                              
+                            </button>
+                              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="/wallet">
+                      <i class="fa fa-user"></i> 
+                     <span>profile</span>
+                                    </a>
+                                    </li>
+                                  <li><a class="dropdown-item" href="/check-pnr-status">
+                                      <i class="fas fa-ticket-alt"> </i>
+                                      <span>PNR STATUS</span>
+                                      </a></li>
+                                  <li> <a class="dropdown-item" href="/check-platform-number-position"> 
+                                      <i class="fas fa-map-marked-alt"></i>
+                                      <span>COACH POSITION</span>
+                                       </a>
+                                  </li>
+                                  <li> <a class="dropdown-item" href="/check-train-time-table">
+                                      <i class="fas fa-calendar-alt"> </i>
+                                      <span>TRAIN TIMETABLE</span>
+                                       </a> 
+                                      </li>
+                                  <li><a href="" class="dropdown-item">
+                                      <i class="fa fa-sign-out-alt"></i>
+                                      <span>LOGOUT</span>
+                                      </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                        
+                      </div> 
+                       </nav>
+                    </div> 
+              </div>
+  </header>
            
+        
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         <div class ="row" style="background:#282323;height:auto">
@@ -65,7 +87,8 @@
             <center><span><b>&copy
              <a class="nav-link active" href="#" >zoop</a>.All rights reserved. Zoop Web Services Pvt. Ltd.</b></span></center>
           </div>           
- </div>
+          </div>
+      </div>
     </form>
 </body>
 </html>
