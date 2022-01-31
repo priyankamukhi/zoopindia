@@ -8,10 +8,10 @@
    
       <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/6.jpg" alt="customised bulk food odering" style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite">
       <img class="img-fluid w-100"src="https://www.zoopindia.com/assets/images/home/5.jpg" alt="special jain food"style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite">
-      <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants" style="animation-delay:20s">
-      <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants">
-      <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/3.jpg" alt="200+ stations and countings">
-      <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/1.jpg"alt="order food in train">
+      <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants" style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;animation-duration:24s">
+      <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants" style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;animation-duration:24s">
+      <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/3.jpg" alt="200+ stations and countings"style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;animation-duration:24s">
+      <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/1.jpg"alt="order food in train"style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;animation-duration:24s">
       
         
 </div>
