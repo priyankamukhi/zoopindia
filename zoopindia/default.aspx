@@ -2,24 +2,22 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="content">
-    <section class="containe-fluid p-0" style="padding:0!important">
-  <div id="cf" class="d-md-block d-none" style="height:127px;position:relative;margin:0 auto">
+    <div class="content" style="display:block">
+    <section class="containe-fluid p-0" style="padding:0!important;margin-right:auto;margin-left:auto">
+  <div id="cf" class="d-md-block d-none">
    
       <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/6.jpg" alt="customised bulk food odering">
       <img class="img-fluid w-100"src="https://www.zoopindia.com/assets/images/home/5.jpg" alt="special jain food">
       <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants">
-      <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants">
       <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/3.jpg" alt="200+ stations and countings">
       <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/1.jpg"alt="order food in train">
       </div>
-        <div id="cf" class="d-md-none">
-            <img class="img-fluid w-100"src="	https://www.zoopindia.com/assets/images/home/6m.jpg"alt="customised bulk food odering" >
-             <img class="img-fluid w-100"src="https://www.zoopindia.com/assets/images/home/5.jpg" alt="special jain food"style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite">
-            <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants" style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;animation-duration:24s">
-            <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants" style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;animation-duration:24s">
-            <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/3.jpg" alt="200+ stations and countings"style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;animation-duration:24s">
-            <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/1.jpg"alt="order food in train"style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;animation-duration:24s">
+        <div id="cf" class="d-md-none" style="position:relative;margin:0 auto;height:127px">
+            <img class="img-fluid w-100"src="	https://www.zoopindia.com/assets/images/home/6m.jpg"alt="customised bulk food odering" style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;left:0;animation-timing-function:ease-in-out;width:100% !important">
+            <img class="img-fluid w-100"src="https://www.zoopindia.com/assets/images/home/5.jpg" alt="special jain food"style="animation-delay:15s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;left:0;animation-timing-function:ease-in-out;width:100% !important">
+            <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants" style="animation-delay:10s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;animation-duration:24s;left:0;animation-timing-function:ease-in-out;width:100% !important">   
+            <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/3.jpg" alt="200+ stations and countings"style="animation-delay:5s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;animation-duration:24s;left:0;animation-timing-function:ease-in-out">
+            <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/1.jpg"alt="order food in train"style="animation-delay:0s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite;animation-duration:24s;left:0;animation-timing-function:ease-in-out">
         </div>
          </section>
              <section class="container-fluid searchTrain" style="background:#ffffff;text-align:center">
