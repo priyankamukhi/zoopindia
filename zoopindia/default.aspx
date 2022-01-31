@@ -3,26 +3,16 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="content">
-    <section class="containe-fluid p-0">
-  <div class="carousel-inner">
-    <div class="item active">
-        <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/6.jpg" alt="customised bulk food odering">
+    <section class="containe-fluid p-0" style="padding:0!important">
+  <div id="cf" class="d-md-block d-none" style="height:127px;position:relative">
    
-        </div>
-
-    <div class="item ">
-      <img class="img-fluid w-100"src="https://www.zoopindia.com/assets/images/home/5.jpg" alt="special jain food">
-    </div>
-
-    <div class="item ">
+      <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/6.jpg" alt="customised bulk food odering" style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite">
+      <img class="img-fluid w-100"src="https://www.zoopindia.com/assets/images/home/5.jpg" alt="special jain food"style="animation-delay:20s;position:absolute;animation-name:cf3FadeInOut;animation-iteration-count:infinite">
+      <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants" style="animation-delay:20s">
       <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants">
-    </div>
-      <div class="item">
       <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/3.jpg" alt="200+ stations and countings">
-  </div>
-      <div class="item ">
       <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/1.jpg"alt="order food in train">
-      </div>
+      
         
 </div>
          </section>
