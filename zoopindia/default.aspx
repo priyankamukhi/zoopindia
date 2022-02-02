@@ -6,14 +6,14 @@
     <section class="containe-fluid p-0" style="padding:0!important;width:100%">
 
         
-              <div id="cf" class="d-md-block d-none"style="height:127px;position:relative;display:none !important;margin:0 auto">
+              <div id="cf" class="d-md-block d-none"style="position:relative;display:none !important;margin:0 auto">
                   <img class="img-fluid w-100"src="https://www.zoopindia.com/assets/images/home/6m.jpg"alt="customised bulk food odering">
             <img class="img-fluid w-100"src="https://www.zoopindia.com/assets/images/home/5.jpg" alt="special jain food">
             <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants">   
             <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/3.jpg" alt="200+ stations and countings">
             <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/1.jpg"alt="order food in train">  
               </div>
-        <div id="cf" class="d-md-none" style="position:relative">
+        <div id="cf" class="d-md-none" style="position:relative;margin:0 auto;height:127px;box-sizing:border-box">
             <img class="img-fluid w-100"src="https://www.zoopindia.com/assets/images/home/6m.jpg"alt="customised bulk food odering" style="animation-delay:20s;position:absolute;animation-iteration-count:infinite;left:0;width:100% !important">
             <img class="img-fluid w-100"src="https://www.zoopindia.com/assets/images/home/5.jpg" alt="special jain food"style="animation-delay:15s;position:absolute;animation-iteration-count:infinite;left:0;width:100% !important">
             <img class="img-fluid w-100" src="https://www.zoopindia.com/assets/images/home/4.jpg" alt="fssai approved restaurants" style="animation-delay:10s;position:absolute;animation-iteration-count:infinite;animation-duration:24s;left:0;width:100% !important">   
