@@ -21,19 +21,19 @@
          </section>
       
              <section class="container-fluid searchTrain"style="text-align:center;background:#f5f0f0;width:100%">
-            <div class="container-md"style="width:100%">
-            <div class="row">
-                <div class="col-12"style="max-width:100%">
-                    <div class="mainheading margin-main"style="margin-bottom:0rem !important;text-align:center;text-transform:uppercase;font-weight:600">ORDER FOOD ON TRAINS</div>
-               <div class="form-check form-check-inline"style="margin-top:unset;margin-right:0.6rem;float:left;margin-left:1.5em;margin-bottom:0.125rem">
-                   <input type="radio" class="form-check-input"name="searchRestaurants" id="inlineRadio1" value="option1" style="background-color:#ff6a00;border-color:transparent;border-radius:50% "checked >
+            <div class="container-md">
+            <div class="row"style="display:flex;flex-wrap:wrap">
+                <div class="col-12"style="width:100%;flex:0 0 auto;text-align:center">
+                    <div class="mainheading margin-main"style="margin-bottom:0rem !important;text-transform:uppercase;font-weight:600">ORDER FOOD ON TRAINS</div>
+               <div class="form-check form-check-inline"style="margin-top:unset;margin-right:1.6rem;float:left;margin-left:2.5em;margin-bottom:0.125rem">
+                   <input type="radio" class="form-check-input"name="searchRestaurants" id="inlineRadio1" value="option1" style="background-color:#ff6a00;border-color:transparent;border-radius:50% ;"checked >
               <label class="form-check-label" for="inlineRadio1">PNR</label>
                    </div>
-                    <div class="form-check form-check-inline"style="margin-top:unset;margin-right:0.6rem;float:left;margin-left:1.5em;margin-bottom:0.125rem">
+                    <div class="form-check form-check-inline"style="margin-top:unset;margin-right:1.6rem;float:left;margin-left:2.5em;margin-bottom:0.125rem">
                         <input type="radio" class="form-check-input" name="searchRestaurants" id="inlineRadio2" value="option2">
                         <label class="form-check form-check-inline" for="inlineRadio2">Train Name/No. </label>
                     </div>
-                    <div class="form-check form-check-inline"style="margin-top:unset;margin-right:0.6rem;float:left;margin-left:1.5em;margin-bottom:0.125rem">
+                    <div class="form-check form-check-inline"style="margin-top:unset;margin-right:1.6rem;float:left;margin-left:2.5em;margin-bottom:0.125rem">
                      <input type="radio" class="form-check-input" name="searchRestaurant"id="inlineRadio3" value="option3">
                         <label class ="form-check-label" for="inlineRadio3">STATION</label>
                     </div>
@@ -47,7 +47,7 @@
                             <!-- -->
                             "SEARCH RESTAURANTS"
                         </button>
-                       </div>
+                       </div
                     </form>
                     <div class="pt-3"></div>
                 </div>
