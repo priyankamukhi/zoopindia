@@ -19,10 +19,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-  <div class="wrapper">
-      <div id="__next" style="flex-direction:column;height:inherit;">
-      <header class="container-fluid headerBg" id="navbar_top " style="background:#ffffff;position:relative;z-index:100;margin-left:auto;margin-right:auto">
-          <div class="container-md" style="width:100%;margin-left:auto;margin-right:auto">
+  <div class="wrapper"style="height:100%">
+      <div id="__next" style="flex-direction:column">
+      <header class="container-fluid headerBg" id="navbar_top " style="position:relative;z-index:100">
+          <div class="container-md">
               <nav class="navbar navbar-expand-lg p-0"style="display:flex;align-items:center;justify-content:space-between;position:relative;flex-wrap:wrap;padding:0 !important">
                
                <span class="btn collapseBtn" style="height:30px;position:relative;cursor:pointer;width:26px;right:10px;background-color:transparent;">
@@ -34,12 +34,12 @@
                  <a class="navbar-brand websiteLogo" href="https://www.zoopindia.com/assets/images/logo.png">
                    <img src="https://www.zoopindia.com/assets/images/logo.png" alt="ZOOPINDIA" class="img-fluid" style="width:3.5rem;cursor:pointer;margin:0.2rem 0 0 0.5rem;max-width:100%">   
                  </a>
-                 <div class="navbar-collapse mobileMenu justify-content-end" style="flex:0 1 auto; margin-left:auto;justify-content:flex-end !important;align-items:center">
-                     <a class="mainColour android-link" href="https://play.google.com/store/apps/details?id=com.zoop.zoopindiaservice&hl=en" target="_blank" style="padding:5px;font-size:1.5rem !important;color:#ff6a00 !important;font-weight:500 !important;display:none!important">
-                         <i class="fa fa-android" style="display:inline-block;text-rendering:auto;color:#f14b1b;font-style:normal;font-variant:normal;line-height:1"></i>
+                 <div class="navbar-collapse mobileMenu justify-content-end" style="flex:0 1 auto; margin-left:auto;justify-content:flex-end !important">
+                     <a class="mainColour android-link" href="https://play.google.com/store/apps/details?id=com.zoop.zoopindiaservice&hl=en" target="_blank" style="padding:5px;font-size:1.5rem !important;color:#ff6a00 !important;font-weight:500 !important;color:#ff6a00 !important">
+                         <i class="fa fa-android"></i>
                           </a>
-                      <ul class="navbar-nav navRight" style="display:flex;flex-direction:column;list-style:none;padding-left:0;margin-bottom:0">
-                          <li class="nav-item dropdown" style="display:list-item">
+                      <ul class="navbar-nav navRight" style="display:flex;flex-direction:column">
+                          <li class="nav-item dropdown">
                           <button type="button" class="nav-link dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="padding:0.4rem 0;color:#ff6a00;position:relative;font-size:1.1rem;border:none;background:none;-webkit-appearance:button">
                               
                               <span  class="::before" style="background:#211f1d; width:100%;position:absolute;left:0;right:0;opacity:0;height:0;box-sizing:border-box"></span>
@@ -49,7 +49,7 @@
                                   <i class="::after" style="display:inline-block;margin-left:0.255rem;vertical-align:0.255rem;border-top:0.3em solid;border-right:0.3em solid transparent;border-left:0.3em solid transparent;border-bottom:0"></i>
                              
                               </button>
-                              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1"style="position:absolute;display:block;visibility:hidden;opacity:0;background-color:#ffffff;z-index:1000">
+                              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1"style="position:absolute;opacity:0;background-color:#ffffff;z-index:1000">
                                 <li>
                                     <a class="dropdown-item" href="https://www.zoopindia.com/wallet">
                                     <i class="fa fa-user"></i> 
@@ -126,16 +126,23 @@
 </div>
 
         </div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+              
+           </div>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-        <div class ="row" style="background:#282323;height:auto">
-
+        <div class ="row" style="background:#282323;height:auto;color:#808080">
+            <div class="col-12">
+                <ul class="list-unstyled socialMediaLink">
+                    <li> <a href="https://www.facebook.com/ZoopFood">
+                        <i class="fab fa-facebook"></i>
+                         </a></li>
+                </ul>
             <center><span><b>Mohan Cooperative Industrial Estate, New Delhi-110044</b></span></center>
             <center><span><b>&copy
              <a class="nav-link active" href="#" >zoop</a>.All rights reserved. Zoop Web Services Pvt. Ltd.</b></span></center>
           </div>           
           </div>
-      </div>
+    
     </form>
 </body>
 </html>
